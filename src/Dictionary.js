@@ -14,7 +14,6 @@ export default function Dictionary(props) {
     axios.get(apiUrl).then(handleResponse);
   }
   function handleResponse(response) {
-    console.log(response.data);
     setResults(response.data);
   }
   function handleKeywordChange(event) {
