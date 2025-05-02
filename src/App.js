@@ -11,7 +11,7 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="text-center">Coded by Feiling</footer>
+      <footer>Coded by Feiling</footer>
     </div>
   );
 }
