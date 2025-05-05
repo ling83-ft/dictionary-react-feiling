@@ -13,7 +13,22 @@ function App() {
           <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Feiling</small>
+          This project is coded by Feiling and is{" "}
+          <a
+            href="https://github.com/ling83-ft/dictionary-react-feiling"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://dictionary-react-feiling.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
